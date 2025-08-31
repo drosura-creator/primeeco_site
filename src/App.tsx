@@ -14,10 +14,14 @@ import SavingsButton from "./components/SavingsButton";
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col bg-white text-gray-900">
+      {/* Third-party scripts, chat, analytics, etc. */}
       <SiteIntegrations />
+
+      {/* Sticky header */}
       <Header />
 
-      <main className="flex-1">
+      {/* Add top padding so content isn't hidden behind the sticky header */}
+      <main className="pt-14 md:pt-20 flex-1">
         <Routes>
           <Route
             path="/"
@@ -26,7 +30,7 @@ export default function App() {
                 <Hero />
                 <Benefits />
                 <Projects />
-                {/* ⛔️ Removed inline <SavingsCalculator /> */}
+                {/* ⛔️ SavingsCalculator removed from inline render; modal is mounted globally below */}
               </>
             }
           />
@@ -36,9 +40,10 @@ export default function App() {
         </Routes>
       </main>
 
+      {/* Footer */}
       <Footer />
 
-      {/* ✅ Mount once, globally */}
+      {/* Global single-mount widgets */}
       <SavingsCalculatorModal />
       <WhatsAppButton />
       <SavingsButton />
