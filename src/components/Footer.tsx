@@ -118,7 +118,7 @@ const Footer = () => {
               <Phone className="w-5 h-5 text-orange-400" />
               <div>
                 <p className="text-sm text-gray-400">Call Us</p>
-                <p className="font-semibold">+94 77 123 4567</p>
+                <p className="font-semibold">+94 71 204 8868</p>
               </div>
             </div>
             <div className="flex items-center space-x-3">
@@ -132,7 +132,7 @@ const Footer = () => {
               <MapPin className="w-5 h-5 text-orange-400" />
               <div>
                 <p className="text-sm text-gray-400">Visit Us</p>
-                <p className="font-semibold">123 Galle Road, Colombo 03</p>
+                <p className="font-semibold">39/7 Near the central college, Galnewa</p>
               </div>
             </div>
           </div>
