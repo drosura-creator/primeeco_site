@@ -49,10 +49,10 @@ export default function Contact() {
                 <Phone className="w-5 h-5 text-green-600" /> Phone
               </h3>
               <p className="ml-7">
-                <a href="tel:+94771234567" className="text-green-700 hover:underline">+94 77 123 4567</a>
+                <a href="tel:+94712048868" className="text-green-700 hover:underline">+94 71 204 8868</a>
               </p>
               <p className="ml-7">
-                <a href="tel:+94112345678" className="text-green-700 hover:underline">+94 11 234 5678</a>
+                <a href="tel:+94713382623" className="text-green-700 hover:underline">+94 71 338 2623 </a>
               </p>
             </div>
 
@@ -63,9 +63,7 @@ export default function Contact() {
               <p className="ml-7">
                 <a href="mailto:info@primeeco.lk" className="text-green-700 hover:underline">info@primeeco.lk</a>
               </p>
-              <p className="ml-7">
-                <a href="mailto:quotes@primeeco.lk" className="text-green-700 hover:underline">quotes@primeeco.lk</a>
-              </p>
+              
             </div>
 
             <div>
