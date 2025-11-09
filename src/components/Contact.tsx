@@ -72,8 +72,8 @@ export default function Contact() {
               <h3 className="font-semibold flex items-center gap-2">
                 <MapPin className="w-5 h-5 text-green-600" /> Office
               </h3>
-              <p className="ml-7">123 Galle Road</p>
-              <p className="ml-7">Colombo 03, Sri Lanka</p>
+              <p className="ml-7">39/7 Near the central college</p>
+              <p className="ml-7">Galnewa</p>
             </div>
 
             <div>
@@ -89,7 +89,7 @@ export default function Contact() {
                 <Headphones className="w-5 h-5 text-green-600" /> 24/7 Emergency Support
               </h3>
               <p className="ml-7">
-                <a href="tel:+94709998888" className="text-green-700 hover:underline">+94 70 999 8888</a>
+                <a href="tel:+9412048868" className="text-green-700 hover:underline">+94 71 204 8868</a>
               </p>
             </div>
           </div>
@@ -174,9 +174,9 @@ export default function Contact() {
         <iframe
           title="PrimeEco Office Location"
           src={
-            "https://www.google.com/maps?" +
+            "https://maps.app.goo.gl/ewbmA4GNJeH5BATS7" +
             new URLSearchParams({
-              q: "123 Galle Road, Colombo 03, Sri Lanka",
+              q: "39/7, Near the Central College, Galnewa",
               hl: "en",
               z: "15",
               output: "embed",
